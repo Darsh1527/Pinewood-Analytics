@@ -1,0 +1,168 @@
+{
+  "batch_id": "68ca5320dd12",
+  "started_at": "2026-07-14T12:05:43.187138+00:00",
+  "stages": {
+    "bronze": {
+      "seconds": 0.12,
+      "result": {
+        "files_loaded": [
+          {
+            "file": "adp_shifts_2025_06.csv",
+            "rows": 11524
+          },
+          {
+            "file": "gbp_reviews_2025_06.csv",
+            "rows": 88
+          },
+          {
+            "file": "hubspot_leads_2025_06.csv",
+            "rows": 161
+          },
+          {
+            "file": "pcc_care_history_2025_06.csv",
+            "rows": 43
+          },
+          {
+            "file": "pcc_incidents_2025_06.csv",
+            "rows": 76
+          },
+          {
+            "file": "pcc_residents_2025_06.csv",
+            "rows": 769
+          },
+          {
+            "file": "yardi_leases_2025_06.csv",
+            "rows": 63
+          },
+          {
+            "file": "yardi_units_2025_06.csv",
+            "rows": 915
+          }
+        ],
+        "files_skipped": [
+          "adp_shifts_2025_01.csv",
+          "adp_shifts_2025_02.csv",
+          "adp_shifts_2025_03.csv",
+          "adp_shifts_2025_04.csv",
+          "adp_shifts_2025_05.csv",
+          "gbp_reviews_2025_01.csv",
+          "gbp_reviews_2025_02.csv",
+          "gbp_reviews_2025_03.csv",
+          "gbp_reviews_2025_04.csv",
+          "gbp_reviews_2025_05.csv",
+          "hubspot_leads_2025_01.csv",
+          "hubspot_leads_2025_02.csv",
+          "hubspot_leads_2025_03.csv",
+          "hubspot_leads_2025_04.csv",
+          "hubspot_leads_2025_05.csv",
+          "pcc_care_history_2025_01.csv",
+          "pcc_care_history_2025_02.csv",
+          "pcc_care_history_2025_03.csv",
+          "pcc_care_history_2025_04.csv",
+          "pcc_care_history_2025_05.csv",
+          "pcc_incidents_2025_01.csv",
+          "pcc_incidents_2025_02.csv",
+          "pcc_incidents_2025_03.csv",
+          "pcc_incidents_2025_04.csv",
+          "pcc_incidents_2025_05.csv",
+          "pcc_residents_2025_01.csv",
+          "pcc_residents_2025_02.csv",
+          "pcc_residents_2025_03.csv",
+          "pcc_residents_2025_04.csv",
+          "pcc_residents_2025_05.csv",
+          "yardi_leases_2025_01.csv",
+          "yardi_leases_2025_02.csv",
+          "yardi_leases_2025_03.csv",
+          "yardi_leases_2025_04.csv",
+          "yardi_leases_2025_05.csv",
+          "yardi_units_2025_01.csv",
+          "yardi_units_2025_02.csv",
+          "yardi_units_2025_03.csv",
+          "yardi_units_2025_04.csv",
+          "yardi_units_2025_05.csv"
+        ],
+        "tables": {
+          "pcc_residents": 4152,
+          "pcc_incidents": 411,
+          "pcc_care_history": 303,
+          "yardi_units": 5490,
+          "yardi_leases": 346,
+          "adp_shifts": 68071,
+          "gbp_reviews": 424,
+          "hubspot_leads": 830
+        }
+      }
+    },
+    "silver": {
+      "seconds": 1.31,
+      "result": {
+        "residents_monthly": 4149,
+        "incidents": 411,
+        "care_history": 303,
+        "units_monthly": 5460,
+        "leases": 302,
+        "shifts": 68071,
+        "reviews": 424,
+        "leads": 829,
+        "quarantine": 40
+      }
+    },
+    "gold": {
+      "seconds": 0.68,
+      "result": {
+        "dim_community": 14,
+        "dim_date": 2557,
+        "dim_resident": 823,
+        "dim_resident_care_level": 854,
+        "dim_unit": 910,
+        "fact_incident": 411,
+        "fact_lead": 829,
+        "fact_lease": 302,
+        "fact_monthly_revenue": 1030,
+        "fact_resident_day": 120457,
+        "fact_review": 424,
+        "fact_shift": 68071
+      }
+    },
+    "validation": {
+      "seconds": 0.01,
+      "result": {
+        "checks_run": 39,
+        "passed": 37,
+        "warnings": [
+          "HubSpot funnel chronology (deposit before tour)",
+          "HubSpot funnel chronology (move-in before deposit)"
+        ],
+        "failures": []
+      }
+    },
+    "export": {
+      "seconds": 0.05,
+      "result": {
+        "dim_date": "dim_date.csv",
+        "dim_community": "dim_community.csv",
+        "dim_unit": "dim_unit.csv",
+        "dim_resident": "dim_resident.csv",
+        "dim_resident_care_level": "dim_resident_care_level.csv",
+        "fact_resident_day": "fact_resident_day.csv",
+        "fact_monthly_revenue": "fact_monthly_revenue.csv",
+        "fact_shift": "fact_shift.csv",
+        "fact_incident": "fact_incident.csv",
+        "fact_lease": "fact_lease.csv",
+        "fact_review": "fact_review.csv",
+        "fact_lead": "fact_lead.csv",
+        "v_monthly_occupancy": "v_monthly_occupancy.csv",
+        "v_labor_cost_per_resident_day": "v_labor_cost_per_resident_day.csv",
+        "v_incident_rate_by_community": "v_incident_rate_by_community.csv",
+        "v_incident_rate_by_care_level": "v_incident_rate_by_care_level.csv",
+        "v_top_moveout_reasons": "v_top_moveout_reasons.csv",
+        "v_avg_los_by_care_level": "v_avg_los_by_care_level.csv",
+        "v_care_level_review_candidates": "v_care_level_review_candidates.csv",
+        "v_reviews_summary": "v_reviews_summary.csv"
+      }
+    }
+  },
+  "finished_at": "2026-07-14T12:05:45.419562+00:00",
+  "total_seconds": 2.23,
+  "status": "PASSED_WITH_WARNINGS"
+}

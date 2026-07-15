@@ -1,0 +1,62 @@
+review_id,community_id,review_date,rating,review_text,response_text,responded_at
+GR157521,C001,2025-02-01,3,Average,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-12
+GR429785,C001,2025-02-23,5,Wonderful community,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-03-06
+GR624308,C001,2025-02-03,1,Poor management,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-08
+GR918950,C001,2025-02-04,4,Nice facility,,
+GR185874,C001,2025-02-09,4,Nice facility,,
+GR358924,C001,2025-02-10,2,Not what we expected,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-13
+GR361753,C002,2025-02-23,3,Mixed experience,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-03-03
+GR193162,C002,2025-02-03,5,Wonderful community,,
+GR504941,C002,2025-02-04,4,Good experience overall,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-12
+GR625355,C002,2025-02-22,4,Some minor issues but good,,
+GR857807,C002,2025-02-22,5,Best decision we made,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-03-03
+GR500786,C003,2025-02-16,1,Neglectful,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-21
+GR762734,C003,2025-02-23,4,Caring staff,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-28
+GR428823,C003,2025-02-10,5,Wonderful community,,
+GR446143,C003,2025-02-22,4,Caring staff,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-03-02
+GR268205,C003,2025-02-01,4,Good experience overall,,
+GR835835,C004,2025-02-28,1,Neglectful,,
+GR188442,C004,2025-02-23,5,Wonderful community,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-24
+GR779335,C004,2025-02-21,5,Highly recommend,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-24
+GR207930,C004,2025-02-17,5,Highly recommend,,
+GR194329,C004,2025-02-18,5,Highly recommend,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-03-02
+GR819181,C005,2025-02-16,2,Disappointed,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-23
+GR649156,C005,2025-02-03,5,Wonderful community,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-04
+GR629448,C005,2025-02-12,5,Highly recommend,,
+GR436106,C005,2025-02-20,5,Staff goes above and beyond,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-27
+GR741092,C005,2025-02-26,4,Caring staff,,
+GR820957,C005,2025-02-13,5,Best decision we made,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-24
+GR696718,C006,2025-02-01,4,Some minor issues but good,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-06
+GR513023,C006,2025-02-15,5,Best decision we made,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-20
+GR871203,C006,2025-02-13,5,My mother loves it here,,
+GR138091,C006,2025-02-21,3,Average,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-26
+GR289374,C006,2025-02-09,5,Highly recommend,,
+GR271637,C007,2025-02-03,4,Good experience overall,,
+GR434167,C007,2025-02-19,5,Best decision we made,,
+GR509969,C008,2025-02-25,5,Highly recommend,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-26
+GR965583,C008,2025-02-07,5,Highly recommend,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-19
+GR684373,C008,2025-02-04,5,Wonderful community,,
+GR313201,C009,2025-02-16,2,Slow response times,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-18
+GR802872,C009,2025-02-15,5,My mother loves it here,,
+GR137525,C009,2025-02-07,5,Highly recommend,,
+GR728489,C010,2025-02-27,5,Wonderful community,,
+GR450606,C010,2025-02-08,1,Terrible,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-12
+GR746845,C010,2025-02-09,2,Disappointed,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-21
+GR937225,C010,2025-02-13,1,Neglectful,,
+GR406378,C010,2025-02-27,3,Average,,
+GR344434,C011,2025-02-10,5,Best decision we made,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-13
+GR333939,C011,2025-02-15,4,Mostly happy,,
+GR863071,C011,2025-02-18,4,Nice facility,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-03-03
+GR593352,C011,2025-02-06,5,Best decision we made,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-14
+GR699942,C011,2025-02-15,5,My mother loves it here,,
+GR403351,C012,2025-02-27,3,Some good some bad,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-03-09
+GR659842,C012,2025-02-18,2,Staffing issues,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-23
+GR441682,C013,2025-02-02,5,Excellent care and staff,,
+GR149419,C013,2025-02-24,5,Excellent care and staff,,
+GR978251,C013,2025-02-26,3,Communication could be better,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-03-11
+GR922995,C013,2025-02-03,5,Best decision we made,,
+GR280693,C014,2025-02-16,4,Mostly happy,,
+GR174817,C014,2025-02-14,3,Average,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-17
+GR773897,C014,2025-02-17,4,Mostly happy,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-22
+GR515000,C014,2025-02-18,4,Caring staff,,
+GR607871,C014,2025-02-10,5,Wonderful community,Thank you for your feedback. We appreciate you taking the time to share your experience.,2025-02-17

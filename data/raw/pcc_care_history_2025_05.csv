@@ -1,0 +1,54 @@
+resident_id,change_date,previous_level,new_level,reason
+R01081,2025-05-29,AL,MC,Acuity Increase
+R01229,2025-05-05,IL,AL,Acuity Increase
+R01334,2025-05-31,IL,AL,Acuity Increase
+R01414,2025-05-14,IL,AL,Acuity Increase
+R01657,2025-05-19,IL,AL,Acuity Increase
+R01691,2025-05-08,IL,AL,Acuity Increase
+R01705,2025-05-25,IL,AL,Acuity Increase
+R01710,2025-05-29,AL,MC,Acuity Increase
+R01719,2025-05-09,AL,MC,Acuity Increase
+R01724,2025-05-17,AL,MC,Acuity Increase
+R01738,2025-05-30,IL,AL,Acuity Increase
+R01743,2025-05-15,AL,MC,Acuity Increase
+R01750,2025-05-08,AL,MC,Acuity Increase
+R01753,2025-05-23,AL,MC,Acuity Increase
+R01756,2025-05-17,AL,MC,Acuity Increase
+R01769,2025-05-14,AL,MC,Acuity Increase
+R01772,2025-05-22,AL,MC,Acuity Increase
+R01832,2025-05-03,,MC,Admission
+R01833,2025-05-10,,AL,Admission
+R01834,2025-05-23,,MC,Admission
+R01835,2025-05-11,,MC,Admission
+R01836,2025-05-16,,MC,Admission
+R01837,2025-05-07,,AL,Admission
+R01838,2025-05-02,,IL,Admission
+R01839,2025-05-02,,AL,Admission
+R01840,2025-05-19,,IL,Admission
+R01841,2025-05-04,,AL,Admission
+R01842,2025-05-02,,AL,Admission
+R01843,2025-05-10,,AL,Admission
+R01844,2025-05-10,,AL,Admission
+R01845,2025-05-05,,IL,Admission
+R01846,2025-05-13,,IL,Admission
+R01847,2025-05-13,,IL,Admission
+R01848,2025-05-08,,MC,Admission
+R01849,2025-05-02,,IL,Admission
+R01850,2025-05-10,,MC,Admission
+R01851,2025-05-16,,AL,Admission
+R01852,2025-05-11,,MC,Admission
+R01853,2025-05-25,,IL,Admission
+R01854,2025-05-05,,AL,Admission
+R01855,2025-05-05,,IL,Admission
+R01856,2025-05-01,,IL,Admission
+R01857,2025-05-23,,IL,Admission
+R01858,2025-05-14,,IL,Admission
+R01859,2025-05-03,,AL,Admission
+R01860,2025-05-07,,IL,Admission
+R01861,2025-05-09,,IL,Admission
+R01862,2025-05-16,,IL,Admission
+R01863,2025-05-26,,MC,Admission
+R01864,2025-05-06,,AL,Admission
+R01865,2025-05-11,,AL,Admission
+R01866,2025-05-08,,IL,Admission
+R01867,2025-05-02,,MC,Admission

@@ -1,0 +1,314 @@
+[
+  {
+    "section": "Row reconciliation",
+    "check": "source -> bronze: pcc_residents",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "source files 4152 rows, bronze 4152 rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "source -> bronze: yardi_units",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "source files 5490 rows, bronze 5490 rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "source -> bronze: adp_shifts",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "source files 68071 rows, bronze 68071 rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "source -> bronze: gbp_reviews",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "source files 424 rows, bronze 424 rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "source -> bronze: pcc_care_history",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "source files 303 rows, bronze 303 rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "source -> bronze: hubspot_leads",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "source files 830 rows, bronze 830 rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "source -> bronze: pcc_incidents",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "source files 411 rows, bronze 411 rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "source -> bronze: yardi_leases",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "source files 346 rows, bronze 346 rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "bronze -> silver: pcc_residents",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "bronze 4152, silver 4149, dropped 3 (33 quarantine entries explain rejections/dedup)",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "bronze -> silver: pcc_incidents",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "bronze 411, silver 411, dropped 0 (0 quarantine entries explain rejections/dedup)",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "bronze -> silver: yardi_units",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "bronze 5490, silver 5460, dropped 30 (5 quarantine entries explain rejections/dedup)",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "bronze -> silver: yardi_leases",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "bronze 346, silver 302, dropped 44 (1 quarantine entries explain rejections/dedup)",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "bronze -> silver: adp_shifts",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "bronze 68071, silver 68071, dropped 0 (0 quarantine entries explain rejections/dedup)",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "bronze -> silver: gbp_reviews",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "bronze 424, silver 424, dropped 0 (0 quarantine entries explain rejections/dedup)",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "silver -> gold: incidents -> fact_incident",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 411, gold 411",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "silver -> gold: leases -> fact_lease",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 302, gold 302",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "silver -> gold: leads -> fact_lead",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 829, gold 829",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "silver -> gold: reviews -> fact_review",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 424, gold 424",
+    "recommended_action": null
+  },
+  {
+    "section": "Row reconciliation",
+    "check": "silver -> gold: shifts -> fact_shift",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 68071, gold 68071",
+    "recommended_action": null
+  },
+  {
+    "section": "Aggregate reconciliation",
+    "check": "total labor hours",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 565,188.00 h vs gold 565,188.00 h (diff 0.000%, tolerance 0.5%)",
+    "recommended_action": null
+  },
+  {
+    "section": "Aggregate reconciliation",
+    "check": "total labor cost",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 12,666,480.00 $ vs gold 12,666,480.00 $ (diff 0.000%, tolerance 0.5%)",
+    "recommended_action": null
+  },
+  {
+    "section": "Aggregate reconciliation",
+    "check": "distinct residents",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 823.00 vs gold 823.00 (diff 0.000%, tolerance 0.5%)",
+    "recommended_action": null
+  },
+  {
+    "section": "Aggregate reconciliation",
+    "check": "total incidents",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 411.00 vs gold 411.00 (diff 0.000%, tolerance 0.5%)",
+    "recommended_action": null
+  },
+  {
+    "section": "Aggregate reconciliation",
+    "check": "total resident-days (independent recompute)",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "silver 120,457.00 vs gold 120,457.00 (diff 0.000%, tolerance 0.5%)",
+    "recommended_action": null
+  },
+  {
+    "section": "Aggregate reconciliation",
+    "check": "total prorated revenue (6 months)",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "gold total $5,090,143 \u2014 proration verified row-level by active_days/days_in_month bounds check below",
+    "recommended_action": null
+  },
+  {
+    "section": "Aggregate reconciliation",
+    "check": "revenue proration bounds",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 rows violate 1 <= active_days <= days_in_month or revenue bounds",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "no overlapping leases per resident",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "no negative or >100% occupancy",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "no discharge before admit",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "no future-dated events (post window end)",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "acuity within 1-10",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "incident severity within 1-5",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "review rating within 1-5",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "shift hours within 0-16",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "all facts reference known communities",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "SCD2 ranges do not overlap per resident",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "exactly one current SCD2 row per resident",
+    "status": "PASS",
+    "severity": "INFO",
+    "detail": "0 violating rows",
+    "recommended_action": null
+  },
+  {
+    "section": "Business rules",
+    "check": "HubSpot funnel chronology (deposit before tour)",
+    "status": "WARN",
+    "severity": "MEDIUM",
+    "detail": "12 leads out of order \u2014 possibly process reality (deposits without tours), possibly CRM data entry",
+    "recommended_action": "raise to client"
+  },
+  {
+    "section": "Business rules",
+    "check": "HubSpot funnel chronology (move-in before deposit)",
+    "status": "WARN",
+    "severity": "MEDIUM",
+    "detail": "34 leads out of order \u2014 possibly process reality (deposits without tours), possibly CRM data entry",
+    "recommended_action": "raise to client"
+  }
+]

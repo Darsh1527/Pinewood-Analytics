@@ -1,0 +1,62 @@
+resident_id,change_date,previous_level,new_level,reason
+R01103,2025-04-07,AL,MC,Acuity Increase
+R01297,2025-04-03,IL,AL,Acuity Increase
+R01569,2025-04-17,IL,AL,Acuity Increase
+R01643,2025-04-14,AL,MC,Acuity Increase
+R01649,2025-04-16,AL,MC,Acuity Increase
+R01659,2025-04-16,IL,AL,Acuity Increase
+R01675,2025-04-02,AL,MC,Acuity Increase
+R01778,2025-04-17,,IL,Admission
+R01779,2025-04-28,,IL,Admission
+R01780,2025-04-13,,AL,Admission
+R01781,2025-04-04,,AL,Admission
+R01782,2025-04-07,,IL,Admission
+R01783,2025-04-04,,IL,Admission
+R01784,2025-04-09,,IL,Admission
+R01785,2025-04-15,,IL,Admission
+R01786,2025-04-04,,AL,Admission
+R01787,2025-04-27,,IL,Admission
+R01788,2025-04-03,,MC,Admission
+R01789,2025-04-05,,MC,Admission
+R01790,2025-04-15,,AL,Admission
+R01791,2025-04-25,,AL,Admission
+R01792,2025-04-11,,AL,Admission
+R01793,2025-04-08,,AL,Admission
+R01794,2025-04-27,,AL,Admission
+R01795,2025-04-22,,AL,Admission
+R01796,2025-04-11,,AL,Admission
+R01797,2025-04-20,,AL,Admission
+R01798,2025-04-07,,MC,Admission
+R01799,2025-04-19,,AL,Admission
+R01800,2025-04-19,,AL,Admission
+R01801,2025-04-17,,AL,Admission
+R01802,2025-04-18,,MC,Admission
+R01803,2025-04-08,,AL,Admission
+R01804,2025-04-13,,AL,Admission
+R01805,2025-04-12,,MC,Admission
+R01806,2025-04-05,,IL,Admission
+R01807,2025-04-05,,AL,Admission
+R01808,2025-04-06,,AL,Admission
+R01809,2025-04-20,,IL,Admission
+R01810,2025-04-14,,MC,Admission
+R01811,2025-04-16,,MC,Admission
+R01812,2025-04-15,,AL,Admission
+R01813,2025-04-10,,AL,Admission
+R01814,2025-04-15,,AL,Admission
+R01815,2025-04-10,,IL,Admission
+R01816,2025-04-24,,AL,Admission
+R01817,2025-04-10,,MC,Admission
+R01818,2025-04-03,,MC,Admission
+R01819,2025-04-24,,IL,Admission
+R01820,2025-04-12,,MC,Admission
+R01821,2025-04-02,,AL,Admission
+R01822,2025-04-25,,MC,Admission
+R01823,2025-04-02,,AL,Admission
+R01824,2025-04-16,,AL,Admission
+R01825,2025-04-28,,AL,Admission
+R01826,2025-04-22,,MC,Admission
+R01827,2025-04-09,,AL,Admission
+R01828,2025-04-15,,AL,Admission
+R01829,2025-04-06,,AL,Admission
+R01830,2025-04-14,,IL,Admission
+R01831,2025-04-01,,AL,Admission

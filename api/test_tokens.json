@@ -1,0 +1,26 @@
+[
+  {
+    "sub": "coo@pinewood.example",
+    "role": "corporate_admin",
+    "region": null,
+    "community_id": null,
+    "note": "Corporate admin \u2014 sees all 14 communities",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjb29AcGluZXdvb2QuZXhhbXBsZSIsInJvbGUiOiJjb3Jwb3JhdGVfYWRtaW4iLCJyZWdpb24iOm51bGwsImNvbW11bml0eV9pZCI6bnVsbCwiaWF0IjoxNzg0MDMwNzY5LCJleHAiOjE3ODY2MjI3Njl9.hGlxEb7Qh3uHS4yidkExHae9_5xZF_llLXBjYd0XgKg"
+  },
+  {
+    "sub": "rd.pnw@pinewood.example",
+    "role": "regional_director",
+    "region": "Pacific Northwest",
+    "community_id": null,
+    "note": "Regional Director, Pacific Northwest \u2014 sees C001-C005 (Oregon)",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyZC5wbndAcGluZXdvb2QuZXhhbXBsZSIsInJvbGUiOiJyZWdpb25hbF9kaXJlY3RvciIsInJlZ2lvbiI6IlBhY2lmaWMgTm9ydGh3ZXN0IiwiY29tbXVuaXR5X2lkIjpudWxsLCJpYXQiOjE3ODQwMzA3NjksImV4cCI6MTc4NjYyMjc2OX0.ZZZ1vMs4teLwtyQMi7OL-ZY20CXMKS_JSpPnDDILE_M"
+  },
+  {
+    "sub": "ed.c007@pinewood.example",
+    "role": "executive_director",
+    "region": null,
+    "community_id": "C007",
+    "note": "Executive Director of C007 (Pinewood Saguaro) \u2014 sees only C007",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlZC5jMDA3QHBpbmV3b29kLmV4YW1wbGUiLCJyb2xlIjoiZXhlY3V0aXZlX2RpcmVjdG9yIiwicmVnaW9uIjpudWxsLCJjb21tdW5pdHlfaWQiOiJDMDA3IiwiaWF0IjoxNzg0MDMwNzY5LCJleHAiOjE3ODY2MjI3Njl9.kUKr82pdSDn4VoefNNz62Vp7Iaf8lOd4J2Zjwjaav08"
+  }
+]
